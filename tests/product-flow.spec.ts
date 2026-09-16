@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test';
 import * as Products from './Pages/Products';
-import * as Cart from './Pages/cart';
-import *as Checkout from './Pages/checkout';
+import * as Cart from './Pages/Cart';
+import *as Checkout from './Pages/Checkout';
 import * as Contact from './Pages/Contact';
 
 test('Item is added to the shopping cart', async ({ page }) => {
